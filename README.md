@@ -1,6 +1,6 @@
 # Heroku
 
-
+https://devcenter.heroku.com/articles/django-app-configuration
 
 - Copy the project seperately
 - Go to 'Getting Started on Heroku with Python'
