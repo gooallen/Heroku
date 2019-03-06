@@ -44,3 +44,12 @@ git push heroku master
 ```
 - Open up the website)
 - Admin panel not working. heroku run bash. Migrations
+```
+heroku run bash
+# ..
+python manage.py migrate
+python manage.py createsuperuser
+
+```
+  
+  
