@@ -21,6 +21,9 @@ heroku login
 ```
 ** The location of setting is important, For example setting is under 'mytasks' folder, it should be like below
 web: gunicorn mytasks.wsgi
+
+** latest version
+web: gunicorn fundraisingproject.wsgi
 ```
 - Install django-heroku
 - Add stuff to settings.py file
@@ -32,6 +35,16 @@ django_heroku.settings(locals()) # in the end
 ```
 - Install guincorn 
 - pip freeze - requirements.txt (use the angle bracket after pip freeze. Youtube doesn't allow angle bracket in description :/ )
+- Create 'requirements.txt' (pip freeze available)
+```
+dj-database-url==0.5.0
+Django==2.1.7
+django-heroku==0.3.1
+gunicorn==19.9.0
+psycopg2==2.7.7
+pytz==2018.9
+whitenoise==4.1.2
+```
 - heroku create <project name> (to create an app on heroku)
 - git status git commands - (git push heroku master
 ```
