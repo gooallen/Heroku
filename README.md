@@ -36,7 +36,7 @@ import django_heroku
 django_heroku.settings(locals()) # in the end
 ```
 - Install guincorn 
-- pip freeze - requirements.txt (use the angle bracket after pip freeze. Youtube doesn't allow angle bracket in description :/ )
+- pip freeze > requirements.txt
 - Create 'requirements.txt' (pip freeze available)
 ```
 dj-database-url==0.5.0
