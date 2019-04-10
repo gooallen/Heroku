@@ -15,6 +15,14 @@ https://devcenter.heroku.com/articles/django-app-configuration
 heroku login
 ```
 - Create a virtual enviroment
+```
+virtualenv env
+env\scripts\activate.bat // ** Windows
+source env\bin\activate // ** Mac
+pip install django
+python manage.py migrate // initiating to migrate database
+python manage.py runserver
+```
 - Run manage.py not gonna run - pip freeze nothing installing
 - Check which version django,requests you have and install it
 - Run manage.py and then stop it
@@ -47,7 +55,7 @@ psycopg2==2.7.7
 pytz==2018.9
 whitenoise==4.1.2
 ```
-- heroku create <project name> (to create an app on heroku)
+- heroku create *project name* (to create an app on heroku)
 - git status git commands - (git push heroku master
 ```
 git init
