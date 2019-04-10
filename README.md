@@ -35,7 +35,7 @@ import django_heroku
 # Activate Django-Heroku.
 django_heroku.settings(locals()) # in the end
 ```
-- Install guincorn 
+- Install gunicorn 
 - pip freeze > requirements.txt
 - Create 'requirements.txt' (pip freeze available)
 ```
@@ -57,7 +57,7 @@ git commit -m "name"
 heroku git:remote -a <project name>
 git push heroku master
 ```
-- Open up the website)
+- Open up the website
 - Admin panel not working. heroku run bash. Migrations
 ```
 heroku run bash
